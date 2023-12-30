@@ -30,7 +30,7 @@
 	
 		.homepage #header
 		{
-			padding: 15em 0em;
+    padding: 15em 0em;
 		}
 
 		#header .container
@@ -53,23 +53,25 @@
 	
 		#logo h1 a
 		{
-			display: block;
-			letter-spacing: 1px;
-			text-decoration: none;
-			text-transform: uppercase;
-			font-size: 5em;
-			font-weight: 900;
-			color: #FFF;
+    display: block;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 5.5em;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: "即墨体";
 		}
 
 		#logo span
 		{
-			display: block;
-			padding-top: 1em;
-			letter-spacing: 1px;
-			text-transform: uppercase;
-			font-size: 1.2em;
-			color: rgba(255,255,255,.5);
+    display: block;
+    padding-top: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 3.2em;
+    color: rgba(255,255,255,.5);
+    font-family: "即墨体";
 		}			
 			
 
@@ -94,21 +96,24 @@
 			#nav > ul > li > a,
 			#nav > ul > li > span
 			{
-				display: block;
-				padding: 1em 1.5em;
-				letter-spacing: 1px;
-				text-decoration: none;
-				text-transform: uppercase;
-				font-weight: 200;
-				font-size: 1em;
-				outline: 0;
-				color: rgba(255,255,255,.7);
+    display: block;
+    padding: 1em 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2em;
+    outline: 0;
+    color: rgba(255,255,255,.7);
+    font-family: "即墨体";
 			}
 
 
 			#nav > ul > li > a:hover
 			{
-				color: #FFF;
+    color: #FFF;
+    font-family: "宋体";
+    font-size: 3em;
 			}
 
 			#nav li.active a
@@ -137,16 +142,29 @@
 	
 	#content
 	{
+    background-color: rgba(31,52,37,1.00);
 	}
 	
 	#content header
 	{
-		margin-bottom: 2em;
+    margin-bottom: 2em;
+    font-style: normal;
+    background-color: #FFFFFF;
+    font-family: "华文新魏";
+    font-size: 1.5em;
+    width: auto;
 	}
 	
 	#content header h2
 	{
-		font-size: 3em;
+    font-size: 2em;
+    font-family: "华文新魏";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    border-width: thin thick thick;
+    background-color: rgba(255,255,255,1.00);
+    width: 0px;
 	}
 	
 	#content header .byline
@@ -194,6 +212,3 @@
 	{
 		padding: 3em 0em;
 	}		
-
-
-

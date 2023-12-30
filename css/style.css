@@ -89,7 +89,13 @@
 	
 	p, ul, ol, dl, table
 	{
-		margin-bottom: 1em;
+    margin-bottom: 1em;
+    font-family: "新宋体";
+    font-style: normal;
+    font-weight: 900;
+    font-size: medium;
+    line-height: 6mm;
+    text-indent: 2px;
 	}
 
 	header
@@ -308,7 +314,8 @@
 
 		#nav ul
 		{
-			margin: 0;
+    margin: 0;
+    font-family: "即墨体";
 		}
 	
 /*********************************************************************************/
