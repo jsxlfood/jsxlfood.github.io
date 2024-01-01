@@ -139,7 +139,7 @@
 		section,
 		article
 		{
-			margin-bottom: 3em;
+			margin-bottom: 1em;
 		}
 		
 		section > :last-child,
@@ -220,6 +220,7 @@
     list-style: none;
     color: #FFFFFF;
     background-color: #485B4D;
+    text-align: left;
 		}
 		
 			ul.default li
@@ -244,7 +245,9 @@
 			
 			ul.default a:hover
 			{
-				text-decoration: underline;
+    text-decoration: underline;
+    bottom: auto;
+    float: none;
 			}
 			
 		ul.style {

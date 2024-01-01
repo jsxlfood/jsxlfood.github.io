@@ -220,13 +220,17 @@
 	
 	#footer h2
 	{
-    padding-bottom: 0.5em;
+    padding-bottom: 0.3em;
     font-size: 2em;
     background-color: #923401;
     text-align: center;
-    border-top-width: thick;
     line-height: 209%;
     color: #FFFFFF;
+    border-width: thin;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 	}
 	
 /*********************************************************************************/
