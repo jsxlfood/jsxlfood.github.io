@@ -14,7 +14,8 @@
 
 	body,input,textarea,select
 	{
-		font-size: 11pt;
+    font-size: 11pt;
+    background-color: #FFFFFF;
 	}
 
 /*********************************************************************************/
@@ -112,7 +113,7 @@
 			#nav > ul > li > a:hover
 			{
     color: #FFF;
-    font-family: "宋体";
+    font-family: "即墨体";
     font-size: 3em;
 			}
 
@@ -142,29 +143,38 @@
 	
 	#content
 	{
-    background-color: rgba(31,52,37,1.00);
+    background-color: rgba(255,255,255,1.00);
+    border-color: rgba(5,5,5,1.00);
 	}
 	
 	#content header
 	{
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-style: normal;
     background-color: #FFFFFF;
     font-family: "华文新魏";
     font-size: 1.5em;
     width: auto;
+    border-width: thick;
 	}
 	
 	#content header h2
 	{
-    font-size: 2em;
-    font-family: "华文新魏";
+    font-size: 2.3em;
+    font-family: "即墨体";
     font-style: normal;
     font-variant: normal;
     font-weight: normal;
-    border-width: thin thick thick;
+    border-width: 20px;
     background-color: rgba(255,255,255,1.00);
-    width: 0px;
+    width: auto;
+    background-repeat: repeat-y;
+    min-width: 0px;
+    display: block;
+    border-color: rgba(2,2,2,1.00);
+    background-position: 0% 0%;
+    text-indent: 5%;
+    color: rgba(36,53,37,1.00);
 	}
 	
 	#content header .byline
@@ -174,9 +184,19 @@
 	
 	#sidebar h2
 	{
-		display: block;
-		padding-bottom: 2em;
-		font-size: 1.4em;
+    display: block;
+    padding-bottom: 1em;
+    font-size: 2em;
+    font-family: "即墨体";
+    text-align: center;
+    text-decoration: none;
+    font-weight: lighter;
+    color: rgba(255,255,255,1.00);
+    border-width: medium medium thin;
+    width: auto;
+    background-color: rgba(36,53,37,1.00);
+    border-style: none;
+    line-height: 186%;
 	}
 
 /*********************************************************************************/
@@ -200,8 +220,13 @@
 	
 	#footer h2
 	{
-		padding-bottom: 2em;
-		font-size: 1.4em;
+    padding-bottom: 0.5em;
+    font-size: 2em;
+    background-color: #923401;
+    text-align: center;
+    border-top-width: thick;
+    line-height: 209%;
+    color: #FFFFFF;
 	}
 	
 /*********************************************************************************/
@@ -210,5 +235,6 @@
 	
 	#copyright
 	{
-		padding: 3em 0em;
+    padding: 3em 0em;
+    background-color: #BAB9B9;
 	}		
