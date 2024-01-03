@@ -7,6 +7,17 @@
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
+	@font-face {
+	  font-family: "即墨体";
+	  src: url("即墨体.ttf");
+		font-family: "幼圆";
+	  src: url("幼圆.ttf");
+		font-family: "幼圆";
+	  src: url("幼圆.ttf");
+		font-family: "Aa新华霜剑体";
+	  src: url("Aa新华霜剑体.ttf");
+	}
+
 
 	body
 	{
@@ -429,6 +440,9 @@
 	
 	#copyright a
 	{
-		text-decoration: none;
-		color: rgba(255,255,255,.3);
+    text-decoration: none;
+    color: rgba(0,0,0,0.30);
+    opacity: 1;
+    font-weight: 900;
 	}	
+
