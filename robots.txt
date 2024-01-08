@@ -1,23 +1,6 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  Created By http://www.zhetao.com/sitemapcreator,  URLs: 5 Generated at: 2024-01-08 11:46:42  -->
-<url>
-<loc>https://jsxlfood.github.io/</loc>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://jsxlfood.github.io/index.html</loc>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://jsxlfood.github.io/left-sidebar.html</loc>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://jsxlfood.github.io/right-sidebar.html</loc>
-<priority>1.00</priority>
-</url>
-<url>
-<loc>https://jsxlfood.github.io/no-sidebar.html</loc>
-<priority>1.00</priority>
-</url>
-</urlset>
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow:/caminar/
+Disallow:/images/
+Sitemap: https://jsxlfood.github.io/sitemap.xml
